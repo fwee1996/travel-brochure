@@ -1,0 +1,20 @@
+body{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+
+.cities{
+    display: flex;
+    flex-direction: column;
+}
+
+.landmarks{
+    display: flex;
+    flex-direction: column;
+}
+
+.citizens{
+    display: flex;
+    flex-direction: column;
+}

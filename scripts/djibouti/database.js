@@ -62,3 +62,15 @@ const database = {
     ]
 
 }
+
+export const getCities = () => {
+    return database.djiboutiCities.map(city => ({...city}))
+}
+
+export const getLandmarks= () => {
+    return database.djiboutiLandmarks.map(landmark => ({...landmark}))
+}
+
+export const getCitizens= () => {
+    return database.djiboutiCitizens.map(citizen => ({...citizen}))
+}
