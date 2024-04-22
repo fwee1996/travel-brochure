@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://sahara-magic.com/wp-content/uploads/2022/08/is-the-sahara-desert-in-morocco.webp);
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+}
+.cityList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.landmarkList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.citizenList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }

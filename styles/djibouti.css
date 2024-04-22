@@ -1,0 +1,53 @@
+body{
+    font-size: large;
+}
+
+img{
+    width: 25%;
+    
+    border: 5px dotted brown;
+}
+h1{
+    text-align: center;
+    justify-content: baseline;
+    align-items: flex-end;
+    margin: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+    background-position: right;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cities{
+    width: 30%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 12px;
+    text-align: right
+}
+
+.landmarks{
+    width: 30%;
+    display: flex;
+    font-size: 12px;
+    text-align: right;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 12px;
+    text-align: right
+}
+
+.citizens{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 12px;
+    text-align: right
+}
