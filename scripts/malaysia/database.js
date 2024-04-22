@@ -25,7 +25,7 @@ cities : [
 landmarks : [
     {
       name: "Petronas Twin Towers",
-      image: "https://lh3.googleusercontent.com/p/AF1QipMsjmJ8aYBT3yXp5LMOAQasXkkFzjg30sw6-zxX=s1360-w1360-h1020",
+      image: "https://www.worldatlas.com/r/w1200/upload/f5/e6/14/shutterstock-385530577.jpg",
       description: "The Petronas Twin Towers is the iconic symbol of Malaysia, it offers a breathtaking view and a variety of shopping and dining options."
     },
     {
