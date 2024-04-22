@@ -10,6 +10,11 @@ header{
     flex-direction: row;
     justify-content: flex-start;
 }
+
+.columns{
+    display: flex;
+    flex-direction: row;
+}
 .cityList{
     display: flex;
     flex-direction: column;
