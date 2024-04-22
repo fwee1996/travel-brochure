@@ -49,8 +49,8 @@ const database = {
         },
         {
             id: 2,
-            img:'url',
-            name: `https://img4.bdbphotos.com/images/230x300/e/k/ek7brks65xi5kbsr.jpg?skj2io4l`,
+            img:'https://img4.bdbphotos.com/images/230x300/e/k/ek7brks65xi5kbsr.jpg?skj2io4l',
+            name: `Dileita Mohamed Dileita`,
             description: `Dileita was born on March 12, 1958, and is a Djiboutian politician. He served as Prime Minister of Djibouti from 2001 to 2013.`
         },
         {
