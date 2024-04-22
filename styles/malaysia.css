@@ -1,0 +1,50 @@
+.city__image {
+    width: 50%;
+    height: 50%;
+  }
+  
+.landmark__image {
+    width: 50%;
+    height: 50%;
+  }
+  
+.celebrity__image {
+    width: 150px;
+    height: 190px;
+  }
+  
+/* Layout for sections */
+#citiesList,
+#landmarksList,
+#celebritiesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+/* Individual section styling */
+#citiesList,
+#landmarksList,
+#celebritiesList {
+    width: 400%; 
+    /* border: 1px solid #ccc;  */
+  }
+
+.city.card{
+    padding: 20px;
+  }
+  
+.landmark.card{
+    /* border: 3px solid #ccc;  */
+    padding: 20px;
+  }
+.celebrity.card{
+    padding: 20px;
+  }
+
+body{
+    display: flex; 
+background-color: rgba(81, 183, 201, 0.278);
+}
