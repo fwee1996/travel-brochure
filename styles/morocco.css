@@ -1,37 +1,69 @@
 body{
     background-image: url(https://sahara-magic.com/wp-content/uploads/2022/08/is-the-sahara-desert-in-morocco.webp);
-    display: flex;
-    flex-direction: row;
     color: white;
+
 }
 
-header{
+.trying{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: red;
+}
+
+.citiesTrying{
+    display: flex;
+    text-align:left;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.columns{
+.landmarksTrying{
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: center;
 }
-.cityList{
+
+.citizensTrying{
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.title{
+    background-color: blueviolet;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-family:fantasy;
+}
+.cities{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.landmarkList{
+.landmarks{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.citizenList{
+.citizens{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 img {
@@ -40,3 +72,5 @@ img {
     padding: 5px;
     width: 150px;
   }
+
+  
