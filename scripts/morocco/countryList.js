@@ -19,7 +19,7 @@ export const citiesList = () => {
     
             htmlString += `<section class="city card">
                 <div><img  class="city__image image--card" src="${city.image}" /></div>
-                <div class="fish__name">${city.name}</div>
+                <div class="city__name">${city.name}</div>
                 <div class="city__population">${city.population}</div>
             </section>`
 
